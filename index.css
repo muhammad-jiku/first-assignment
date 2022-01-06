@@ -1,0 +1,247 @@
+body{
+    margin: 0 auto;
+}
+
+/* header section starts */
+.header-section{
+    display: flex;
+}
+
+.header-section-left{
+    width: 60%;
+    padding: 20px;
+}
+
+.header-section-left-heading{
+    border-left: 2px solid tomato;
+    font-family: 'Luxurious Roman', cursive;
+    padding: 0 10px;
+    line-height: 20px;
+}
+
+.header-section-left-heading > h1{
+    font-size: 38px;
+}
+
+.header-section-left-para{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.header-section-left-xtra{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section-left-xtra > input{
+    padding: 15px;
+    color: whitesmoke;
+    background-color: rgb(14, 11, 24);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-section-left-xtra > p{
+    font-weight: 700;
+}
+
+.header-section-right{
+    width: 40%;
+    padding: 20px;
+}
+
+.header-section-right > img{
+    border: 3px solid brown;
+    border-radius: 50%;
+    height: 400px;
+}
+/* header section ends */
+
+/* card section starts */
+.card-section{
+    padding: 20px;
+}
+
+.card-section-header{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card-section-header > h2{
+    font-size: 32px;
+}
+
+.card-section-header > h2 > span{ 
+    color: brown;
+}
+
+.card-section-body{
+    display: flex;
+}
+
+.card{
+    padding: 10px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card > img{
+    height: 100px;
+}
+
+.card-header{
+    padding: 0 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card-header > h4{
+    font-size: 20px;
+}
+
+.card-body{
+  padding: 0 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#card1{
+    background-color: rgba(58, 120, 128, 0.473);
+}
+#card2{
+    background-color: rgba(91, 58, 128, 0.473);
+}
+#card3{
+    background-color: rgba(72, 128, 58, 0.473);
+}
+/* card section ends */
+
+/* information section starts */
+
+.information-section{
+    padding: 20px;
+}
+
+#information-section1{
+    display: flex;
+}
+
+#information-section2{
+    display: flex;
+}
+
+.information-section-image{
+    width: 40%;
+}
+
+.information-section-image > img{
+    height: 355px;
+}
+
+.information-section-body{
+    width: 60%;
+}
+
+.information-section-body-header{
+    padding: 0 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.information-section-body-header > h3{
+    font-size: 26px;
+    line-height: 10%;
+}
+
+.information-section-body-para{
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.information-section-button{
+    margin: 0 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: brown;
+}
+
+/* information section ends */
+
+
+/* projects section starts */
+.projects-section{
+    padding: 20px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.projects-section-header{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.projects-section-header > h2{
+    font-size: 32px;
+    color: rgb(65, 19, 11);
+}
+
+.projects-card{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.projects-card > a {
+    
+    text-decoration: none;
+}
+
+.projects-card > a > img{
+    height: 175px;
+}
+
+
+.projects-card-header{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.projects-card-header > h4{
+    font-size: 20px;
+}
+
+/* footer section starts */
+
+.footer-section{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-section > h2{
+    
+    font-family: 'Luxurious Roman', cursive;
+}
+.footer-section > h2 > span{
+    color: brown;
+}
+
+.footer-section > p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    /* font-size: 20px; */
+}
+    
+
+
+/* footer section ends */
